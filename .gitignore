@@ -36,10 +36,10 @@ DerivedData/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+*.xcworkspace
 
 # Carthage
 #
@@ -66,3 +66,63 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+WLBannerViewDemo/Podfile
+WLBannerViewDemo/Podfile.lock
+WLBannerViewDemo/Pods/Manifest.lock
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/NSBezierPath+RoundedCorners.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/NSButton+WebCache.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/NSData+ImageContentType.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/NSImage+Compatibility.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDAnimatedImage.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDAnimatedImageRep.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDAnimatedImageView+WebCache.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDAnimatedImageView.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDAsyncBlockOperation.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDDiskCache.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageAPNGCoder.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageAssetManager.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCache.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCacheConfig.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCacheDefine.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCachesManager.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCachesManagerOperation.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCoder.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCoderHelper.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageCodersManager.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageFrame.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageGraphics.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageHEICCoder.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageHEICCoderInternal.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageIOAnimatedCoder.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageIOAnimatedCoderInternal.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageIOCoder.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageLoader.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageLoadersManager.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDImageTransformer.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDInternalMacros.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDMemoryCache.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDmetamacros.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWeakProxy.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImage.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageCacheKeyFilter.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageCacheSerializer.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageCompat.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageDefine.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageDownloader.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageDownloaderConfig.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageDownloaderOperation.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageDownloaderRequestModifier.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageError.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageIndicator.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageManager.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageOperation.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageOptionsProcessor.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImagePrefetcher.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/SDWebImageTransition.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/UIButton+WebCache.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/UIColor+HexString.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/UIImage+ForceDecode.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/UIImage+GIF.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/UIImage+MemoryCacheCost.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/UIImage+Metadata.h
+WLBannerViewDemo/Pods/Headers/Private/SDWebImage/UIImage+MultiFormat.h
