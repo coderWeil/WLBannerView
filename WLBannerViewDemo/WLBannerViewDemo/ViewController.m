@@ -40,8 +40,7 @@
     for (int i = 0; i < names.count; ++i) {
         [self.images1 addObject:[UIImage imageNamed:names[i]]];
     }
-    [self.bannerView1.bannerView setupData:self.images1];
-    self.bannerView1.pageControl.numberOfPages = self.images1.count;
+    [self.bannerView1 setupData:self.images1];
     self.bannerView1.pageControl.currentPage = 0;
     [self.bannerView1 reload];
 }
@@ -59,8 +58,7 @@
         model.image = [UIImage imageNamed:names[i]];
         [self.images2 addObject:model];
     }
-    [self.bannerView2.bannerView setupData:self.images2];
-    self.bannerView2.pageControl.numberOfPages = self.images2.count;
+    [self.bannerView2 setupData:self.images2];
     self.bannerView2.pageControl.currentPage = 0;
     [self.bannerView2 reload];
 }
@@ -74,8 +72,7 @@
     for (int i = 0; i < urls.count; ++i) {
         [self.images3 addObject:urls[i]];
     }
-    [self.bannerView3.bannerView setupData:self.images3];
-    self.bannerView3.pageControl.numberOfPages = self.images3.count;
+    [self.bannerView3 setupData:self.images3];
     self.bannerView3.pageControl.currentPage = 2;
     [self.bannerView3.bannerView scrollToIndex:2];
     [self.bannerView3 reload];

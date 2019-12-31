@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, WLPageControlLocation) {
     WLPageControlLocationRight//右边
 };
 
-@interface WLBannerContainerView : UIView
+@interface WLBannerContainerView<T> : UIView
 @property (nonatomic, strong, readonly) WLBannerView *bannerView;
 @property (nonatomic, strong, readonly) WLPageControl *pageControl;
 /**分页指示器的位置，默认在中心
@@ -32,6 +32,9 @@ typedef NS_ENUM(NSUInteger, WLPageControlLocation) {
 /**初始化，指定bannerCell的类名称
  */
 - (instancetype) initWithBannerCellCls:(Class)cls NS_DESIGNATED_INITIALIZER;
+/**设置数据源，数组中数据是泛型
+ */
+- (void) setupData:(NSArray<T> *)data;
 - (void) reload;
 @end
 

@@ -47,6 +47,10 @@
     self.pageControl.dot_margin = 6;
     [self addSubview:self.pageControl];
 }
+- (void)setupData:(NSArray *)data {
+    [self.bannerView setupData:data];
+    self.pageControl.numberOfPages = data.count;
+}
 - (void)reload {
     self.bannerView.frame = self.bounds;
     [self.bannerView reload];
