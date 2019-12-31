@@ -87,6 +87,15 @@
     self.contentSize = CGSizeMake(3*self.bounds.size.width, 0);
     self.contentOffset = CGPointMake(self.bounds.size.width, 0);
 }
+- (void)scrollToIndex:(NSUInteger)index {
+    self.cur_index = index;
+    self.cur_index = MAX(0, self.cur_index);
+    self.cur_index = MIN(self.cur_index, self.data.count);
+    [self.leftCell setupData:[self _getDataBeforeIndex:self.cur_index]];
+    [self.centerCell setupData:[self _getDataAtIndex:self.cur_index]];
+    [self.rightCell setupData:[self _getDataNextIndex:self.cur_index]];
+    self.contentOffset = CGPointMake(self.bounds.size.width, 0);
+}
 - (void) _autoChangeCurrentPage {
     [UIView animateWithDuration:0.25 animations:^{
         self.centerCell.userInteractionEnabled = NO;

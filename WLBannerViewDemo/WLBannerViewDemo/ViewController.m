@@ -70,6 +70,7 @@
     }
     [self.bannerView3 setupData:self.images3];
     [self.bannerView3 reload];
+    [self.bannerView3 scrollToIndex:2];
 }
 - (void)bannerView:(WLBannerView *)bannerView didClickItemAtIndex:(NSUInteger)index {
     if ([bannerView isEqual:self.bannerView1]) {

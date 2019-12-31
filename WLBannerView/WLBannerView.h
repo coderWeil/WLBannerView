@@ -40,8 +40,16 @@ NS_ASSUME_NONNULL_BEGIN
 /**指定cell类名的构造函数，默认是 WLBannerViewCell
  */
 - (instancetype) initWithCellCls:(Class)cls NS_DESIGNATED_INITIALIZER;
+/**设置数据源，此数据源类型可自定义，默认数组中只包含UIImage或者NSString类型
+ 若需要自定义数据源，则对应的cell也需要继承自WLBannerViewCell自定义
+ */
 - (void) setupData:(NSArray<T> *)data;
+/**刷新，布局cell
+ */
 - (void) reload;
+/**手动设置显示到第几张
+ */
+- (void) scrollToIndex:(NSUInteger)index;
 @end
 
 NS_ASSUME_NONNULL_END
