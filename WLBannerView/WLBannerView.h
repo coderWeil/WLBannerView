@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) bannerViewWillDragging:(WLBannerView *)bannerView;
 - (void) bannerViewDidEndDragging:(WLBannerView *)bannerView;
 - (void) bannerViewDidEndDelecerating:(WLBannerView *)bannerView;
-- (void) bannerViewDidClickItemAtIndex:(NSUInteger)index;
+- (void) bannerView:(WLBannerView *)bannerView didClickItemAtIndex:(NSUInteger)index;
 @end
 /**由外部指定数据源类型，默认的只支持NSString或者UIImage类型
  * 自定义类型需要Cell继承WLBannerViewCell，自发实现数据源更新方法

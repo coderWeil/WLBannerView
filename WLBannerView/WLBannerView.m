@@ -193,8 +193,8 @@
     return self.data[index + 1];
 }
 - (void) _tap {
-    if (self.bannerDelegate && [self.bannerDelegate respondsToSelector:@selector(bannerViewDidClickItemAtIndex:)]) {
-        [self.bannerDelegate bannerViewDidClickItemAtIndex:self.cur_index];
+    if (self.bannerDelegate && [self.bannerDelegate respondsToSelector:@selector(bannerView:didClickItemAtIndex:)]) {
+        [self.bannerDelegate bannerView:self didClickItemAtIndex:self.cur_index];
     }
 }
 @end
