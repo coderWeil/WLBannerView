@@ -21,6 +21,8 @@
 		3316AFAA23BB451300678565 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3316AFA723BB451300678565 /* 01.png */; };
 		3316AFAD23BB48C800678565 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3316AFAC23BB48C800678565 /* ImageModel.m */; };
 		3316AFB023BB48F500678565 /* CustomBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3316AFAF23BB48F500678565 /* CustomBannerCell.m */; };
+		3316AFB323BB4F7400678565 /* WLBannerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3316AFB223BB4F7400678565 /* WLBannerContainerView.m */; };
+		3316AFB623BB4F9200678565 /* WLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3316AFB523BB4F9200678565 /* WLPageControl.m */; };
 		4B2A94C9D527B7EAEDFFBCD7 /* libPods-WLBannerViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F264B47654A616573EFC12C6 /* libPods-WLBannerViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,10 @@
 		3316AFAC23BB48C800678565 /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		3316AFAE23BB48F500678565 /* CustomBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBannerCell.h; sourceTree = "<group>"; };
 		3316AFAF23BB48F500678565 /* CustomBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBannerCell.m; sourceTree = "<group>"; };
+		3316AFB123BB4F7400678565 /* WLBannerContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBannerContainerView.h; sourceTree = "<group>"; };
+		3316AFB223BB4F7400678565 /* WLBannerContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLBannerContainerView.m; sourceTree = "<group>"; };
+		3316AFB423BB4F9200678565 /* WLPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLPageControl.h; sourceTree = "<group>"; };
+		3316AFB523BB4F9200678565 /* WLPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPageControl.m; sourceTree = "<group>"; };
 		6CE6CD1D52E80D4C2CF065DD /* Pods-WLBannerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLBannerViewDemo.release.xcconfig"; path = "Target Support Files/Pods-WLBannerViewDemo/Pods-WLBannerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F264B47654A616573EFC12C6 /* libPods-WLBannerViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLBannerViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,6 +122,10 @@
 				3316AF9D23BADFFD00678565 /* WLBannerView.m */,
 				3316AFA223BAE65A00678565 /* WLBannerViewCell.h */,
 				3316AFA323BAE65A00678565 /* WLBannerViewCell.m */,
+				3316AFB123BB4F7400678565 /* WLBannerContainerView.h */,
+				3316AFB223BB4F7400678565 /* WLBannerContainerView.m */,
+				3316AFB423BB4F9200678565 /* WLPageControl.h */,
+				3316AFB523BB4F9200678565 /* WLPageControl.m */,
 			);
 			name = WLBannerView;
 			path = ../../WLBannerView;
@@ -238,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3316AF9E23BADFFD00678565 /* WLBannerView.m in Sources */,
+				3316AFB623BB4F9200678565 /* WLPageControl.m in Sources */,
 				3316AFA423BAE65A00678565 /* WLBannerViewCell.m in Sources */,
+				3316AFB323BB4F7400678565 /* WLBannerContainerView.m in Sources */,
 				3316AFAD23BB48C800678565 /* ImageModel.m in Sources */,
 				3316AF8A23BADF8900678565 /* ViewController.m in Sources */,
 				3316AF8423BADF8900678565 /* AppDelegate.m in Sources */,

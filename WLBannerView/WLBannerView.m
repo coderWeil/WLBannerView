@@ -110,6 +110,9 @@
         [self.centerCell setupData:[self _getDataAtIndex:self.cur_index]];
         [self.rightCell setupData:[self _getDataNextIndex:self.cur_index]];
         self.contentOffset = CGPointMake(self.bounds.size.width, 0);
+        if (self.bannerDelegate && [self.bannerDelegate respondsToSelector:@selector(bannerView:didScrollToIndex:)]) {
+            [self.bannerDelegate bannerView:self didScrollToIndex:self.cur_index];
+        }
     }];
 }
 #pragma mark - UIScrollViewDelegate
