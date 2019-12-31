@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
  * 可继承自 WLBannerViewCell 实现自定义的cell
  */
 @interface WLBannerViewCell<T> : UIView
+@property (nonatomic, strong, readonly) UIImageView *imageView;
 - (void) setupData:(T)data;
 @end
 

@@ -10,7 +10,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 
 @interface WLBannerViewCell ()
-@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong, readwrite) UIImageView *imageView;
 @end
 
 @implementation WLBannerViewCell

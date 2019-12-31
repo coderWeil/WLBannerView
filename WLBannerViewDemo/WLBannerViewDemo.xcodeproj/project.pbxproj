@@ -19,6 +19,8 @@
 		3316AFA823BB451300678565 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 3316AFA523BB451300678565 /* 03.png */; };
 		3316AFA923BB451300678565 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3316AFA623BB451300678565 /* 02.png */; };
 		3316AFAA23BB451300678565 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3316AFA723BB451300678565 /* 01.png */; };
+		3316AFAD23BB48C800678565 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3316AFAC23BB48C800678565 /* ImageModel.m */; };
+		3316AFB023BB48F500678565 /* CustomBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3316AFAF23BB48F500678565 /* CustomBannerCell.m */; };
 		4B2A94C9D527B7EAEDFFBCD7 /* libPods-WLBannerViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F264B47654A616573EFC12C6 /* libPods-WLBannerViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,10 @@
 		3316AFA523BB451300678565 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 		3316AFA623BB451300678565 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		3316AFA723BB451300678565 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		3316AFAB23BB48C800678565 /* ImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		3316AFAC23BB48C800678565 /* ImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
+		3316AFAE23BB48F500678565 /* CustomBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBannerCell.h; sourceTree = "<group>"; };
+		3316AFAF23BB48F500678565 /* CustomBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBannerCell.m; sourceTree = "<group>"; };
 		6CE6CD1D52E80D4C2CF065DD /* Pods-WLBannerViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLBannerViewDemo.release.xcconfig"; path = "Target Support Files/Pods-WLBannerViewDemo/Pods-WLBannerViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F264B47654A616573EFC12C6 /* libPods-WLBannerViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLBannerViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +93,10 @@
 				3316AF8623BADF8900678565 /* SceneDelegate.m */,
 				3316AF8823BADF8900678565 /* ViewController.h */,
 				3316AF8923BADF8900678565 /* ViewController.m */,
+				3316AFAB23BB48C800678565 /* ImageModel.h */,
+				3316AFAC23BB48C800678565 /* ImageModel.m */,
+				3316AFAE23BB48F500678565 /* CustomBannerCell.h */,
+				3316AFAF23BB48F500678565 /* CustomBannerCell.m */,
 				3316AF8B23BADF8900678565 /* Main.storyboard */,
 				3316AF8E23BADF8B00678565 /* Assets.xcassets */,
 				3316AF9023BADF8B00678565 /* LaunchScreen.storyboard */,
@@ -229,9 +239,11 @@
 			files = (
 				3316AF9E23BADFFD00678565 /* WLBannerView.m in Sources */,
 				3316AFA423BAE65A00678565 /* WLBannerViewCell.m in Sources */,
+				3316AFAD23BB48C800678565 /* ImageModel.m in Sources */,
 				3316AF8A23BADF8900678565 /* ViewController.m in Sources */,
 				3316AF8423BADF8900678565 /* AppDelegate.m in Sources */,
 				3316AF9523BADF8B00678565 /* main.m in Sources */,
+				3316AFB023BB48F500678565 /* CustomBannerCell.m in Sources */,
 				3316AF8723BADF8900678565 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
