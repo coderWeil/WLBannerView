@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface WLBannerView<T> : UIScrollView
 /**当前第几页
  */
-@property (nonatomic, assign, readonly) NSUInteger cur_index;
+@property (nonatomic, assign, readonly) NSInteger cur_index;
 /**滚动代理
  */
 @property (nonatomic, weak) id<WLBannerViewDelegate> bannerDelegate;
@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) reload;
 /**手动设置显示到第几张
  */
-- (void) scrollToIndex:(NSUInteger)index;
+- (void) scrollToIndex:(NSInteger)index;
 @end
 
 NS_ASSUME_NONNULL_END

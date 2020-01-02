@@ -15,7 +15,7 @@
 @property (nonatomic, strong) WLBannerViewCell *leftCell;
 @property (nonatomic, strong) WLBannerViewCell *centerCell;
 @property (nonatomic, strong) WLBannerViewCell *rightCell;
-@property (nonatomic, assign, readwrite) NSUInteger cur_index;
+@property (nonatomic, assign, readwrite) NSInteger cur_index;
 @property (nonatomic, strong) dispatch_source_t scrollTimer;
 @end
 
@@ -87,7 +87,7 @@
     self.contentSize = CGSizeMake(3*self.bounds.size.width, 0);
     self.contentOffset = CGPointMake(self.bounds.size.width, 0);
 }
-- (void)scrollToIndex:(NSUInteger)index {
+- (void)scrollToIndex:(NSInteger)index {
     self.cur_index = index;
     self.cur_index = MAX(0, self.cur_index);
     self.cur_index = MIN(self.cur_index, self.data.count);
@@ -138,7 +138,7 @@
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat floatIndex = scrollView.contentOffset.x / scrollView.bounds.size.width;
-    NSUInteger toIndex = self.cur_index;
+    NSInteger toIndex = self.cur_index;
     if (floatIndex > self.cur_index) {
         toIndex++;
         if (toIndex == self.data.count) {
@@ -158,7 +158,7 @@
     }
 }
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    NSUInteger index = scrollView.contentOffset.x / scrollView.bounds.size.width;
+    NSInteger index = scrollView.contentOffset.x / scrollView.bounds.size.width;
     if (index == 0) {
         self.cur_index--;
         if (self.cur_index < 0) {
@@ -186,19 +186,19 @@
     }
 }
 #pragma mark - private methods
-- (id) _getDataAtIndex:(NSUInteger)index {
+- (id) _getDataAtIndex:(NSInteger)index {
     if (index < 0 || index >= self.data.count) {
         return nil;
     }
     return self.data[index];
 }
-- (id) _getDataBeforeIndex:(NSUInteger)index {
+- (id) _getDataBeforeIndex:(NSInteger)index {
     if (index == 0) {
         return self.data.lastObject;
     }
     return self.data[index - 1];
 }
-- (id) _getDataNextIndex:(NSUInteger)index {
+- (id) _getDataNextIndex:(NSInteger)index {
     if (index == self.data.count - 1) {
         return self.data.firstObject;
     }

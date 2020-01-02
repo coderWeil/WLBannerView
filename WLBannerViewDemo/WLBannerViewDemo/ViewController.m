@@ -34,6 +34,7 @@
     self.bannerView1.frame = CGRectMake(0, 50, self.view.bounds.size.width, 200);
     self.bannerView1.bannerView.bannerDelegate = self;
     self.bannerView1.pageControlLocation = WLPageControlLocationRight;
+    self.bannerView1.bannerView.autoScroll = NO;
     [self.view addSubview:self.bannerView1];
     self.images1 = @[].mutableCopy;
     NSArray *names = @[@"01", @"02", @"03"];
